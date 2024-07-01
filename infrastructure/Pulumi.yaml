@@ -1,0 +1,7 @@
+name: ios-pulumi
+description: .
+
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
