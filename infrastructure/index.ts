@@ -39,6 +39,20 @@ const repository = new github.Repository("VladimirCreator", {
 
 // #region -Issues
 
+/** Example of an issue.
+ *
+ * @see {@link https://pulumi.com/registry/packages/github/api-docs/issue#inputs|Available parameters} for all available parameters.
+ *
+ * @example
+ * ```ts
+ * const issue = new github.Issue("title", {
+ * 	repository: repository.name,
+ * 	title: "Title",
+ * 	body: "Description."
+ * })
+ * ```
+ */
+
 // MARK: .
 
 // #endregion
